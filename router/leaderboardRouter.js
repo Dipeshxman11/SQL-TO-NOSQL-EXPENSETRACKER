@@ -1,9 +1,9 @@
-// const express = require("express");
-// const router = express.Router();
-// const leaderboardController = require("../controllers/leaderboardController");
+const express = require("express");
+const router = express.Router();
+const leaderboardController = require("../controllers/leaderboardController");
 
-// router.get("/getLeaderboardPage", leaderboardController.getLeaderboardPage);
+router.get("/getLeaderboardPage", leaderboardController.getLeaderboardPage);
 
-// // router.get("/getLeaderboard", leaderboardController.getLeaderboard);
+// router.get("/getLeaderboard", leaderboardController.getLeaderboard);
 
-// module.exports = router;
+module.exports = router;
