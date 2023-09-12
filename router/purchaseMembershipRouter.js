@@ -1,21 +1,21 @@
-const express = require("express");
+// const express = require("express");
 
-const purchaseMembershipController = require("../controllers/purchaseMembershipController");
+// const purchaseMembershipController = require("../controllers/purchaseMembershipController");
 
-const authenticatemiddleware = require("../middleware/auth");
+// const authenticatemiddleware = require("../middleware/auth");
 
-const router = express.Router();
+// const router = express.Router();
 
-router.get(
-  "/premiumMembership",
-  authenticatemiddleware,
-  purchaseMembershipController.purchasePremium
-);
+// router.get(
+//   "/premiumMembership",
+//   authenticatemiddleware,
+//   purchaseMembershipController.purchasePremium
+// );
 
-router.post(
-  "/updateTransactionStatus",
-  authenticatemiddleware,
-  purchaseMembershipController.updateTransactionStatus
-);
+// router.post(
+//   "/updateTransactionStatus",
+//   authenticatemiddleware,
+//   purchaseMembershipController.updateTransactionStatus
+// );
 
-module.exports = router;
+// module.exports = router;
